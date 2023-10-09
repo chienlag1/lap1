@@ -1,8 +1,8 @@
 import './App.css'
-
+import Header from './header';
 function App() {
   return (
-    <p class="App">react test </p>
+    <Header/>
   );
 }
 
