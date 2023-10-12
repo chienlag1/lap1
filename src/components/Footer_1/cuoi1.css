@@ -1,0 +1,67 @@
+/* CallUs.css */
+
+.cuoi1 {
+    display: flex;
+    flex-direction: row-reverse; /* Đảm bảo phần tử bên phải nằm bên phải */
+  }
+  
+  .callus {
+    position: relative;
+    width: 100%;
+    padding: 100px 0;
+    background: #000;
+  }
+  
+  .callus-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .callus h2 {
+    font-size: 42px;
+    color: #fff;
+  }
+  
+  .callus p {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .callus-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .callus-buttons button {
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  .callus-buttons .outline {
+    background: #E7FAEF;
+    border: 1px solid #09B451;
+    color: #09B451; 
+  }
+  
+  .callus-buttons .get {
+    background: #09B451;
+    border: 1px solid #09B451;
+    color: #E7FAEF; 
+  }
+  
+  /* Image styles */
+  
+  @media (max-width: 768px) {
+    .cuoi1 {
+      flex-direction: column; /* Trong trường hợp màn hình nhỏ hơn 768px, chuyển sang dạng xếp chồng */
+    }
+  }
+  

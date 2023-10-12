@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 5px;
 
 }
 .nav-home ul{
@@ -37,5 +38,8 @@
     color: white;
     border-radius: 3px;
     padding: 15px 20px;
+}
+.nav-search .nav-item{
+    padding-top: 17px;
 }
 

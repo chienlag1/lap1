@@ -1,0 +1,35 @@
+.container2{
+    margin: 0 5%;
+}
+.title{
+    width: 100wh;
+    margin: 5% 0;
+}
+.title span{
+    box-sizing: border-box;
+    font-size: xx-large;
+    
+}
+.title a{
+    color: #4a4747;
+    box-sizing: border-box;
+    float: right;
+    font-size: x-large;
+    font-family: Poppins;
+    text-decoration: none;
+}
+.cartegories{
+    width: 100wh;
+    display: flex;
+    flex-direction: row;
+}
+.cartegories-item{
+    margin-right: 5%;
+}
+.cartegories-item:last-child{
+    margin-right: 0;
+}
+.cartegories-item img{
+    width: 100%;
+    height: 100%;
+}
